@@ -59,7 +59,7 @@ class LoanServiceImplTest {
 		assertNotNull(loanServiceImpl.getLoanIds());
 	}
 
-	@Test
+	// @Test
 	// void testDeleteLoan() {
 	// 	assertEquals("Success",loanServiceImpl.deleteLoan(53));
 	// }
