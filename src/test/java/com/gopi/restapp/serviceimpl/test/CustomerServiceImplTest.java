@@ -59,7 +59,7 @@ class CustomerServiceImplTest {
 
 	@Test
 	void testDeleteCustomer() {
-		assertEquals("Success",customerServiceImpl.deleteCustomer(25));
+		assertEquals("Success",customerServiceImpl.deleteCustomer(26));
 	}
 	
 	@Test
