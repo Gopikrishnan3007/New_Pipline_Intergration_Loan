@@ -31,7 +31,7 @@ class CustomerServiceImplTest {
 
 	@Test
 	void testGetCustomer() {
-		assertNotNull(customerServiceImpl.getCustomer(20));
+		assertNotNull(customerServiceImpl.getCustomer(11));
 	}
 	
 	@Test
@@ -59,7 +59,7 @@ class CustomerServiceImplTest {
 
 	@Test
 	void testDeleteCustomer() {
-		assertEquals("Success",customerServiceImpl.deleteCustomer(21));
+		assertEquals("Success",customerServiceImpl.deleteCustomer(22));
 	}
 	
 	@Test
