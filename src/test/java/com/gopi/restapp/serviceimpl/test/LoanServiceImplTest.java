@@ -61,7 +61,7 @@ class LoanServiceImplTest {
 
 	@Test
 	void testDeleteLoan() {
-		assertEquals("Success",loanServiceImpl.deleteLoan(52));
+		assertEquals("Success",loanServiceImpl.deleteLoan(53));
 	}
 	
 	@Test
