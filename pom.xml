@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.loan</groupId>
-	<artifactId>Loan_Management_System</artifactId>
+	<artifactId>Loan_Management_System_Blugin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Loan_Management_System</name>
 	<description>Demo project for Spring Boot</description>

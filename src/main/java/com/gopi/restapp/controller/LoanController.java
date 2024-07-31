@@ -19,7 +19,7 @@ import com.gopi.restapp.service.LoanService;
 
 @RestController
 @RequestMapping("/loan")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("*")
 public class LoanController {
 
 	LoanService service;
