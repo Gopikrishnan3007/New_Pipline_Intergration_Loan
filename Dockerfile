@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-FROM openjdk:18
-WORKDIR /app
-COPY ./target/Loan_Management_System_Blugin-0.0.1-SNAPSHOT.jar /app
-EXPOSE 8080
-CMD ["java", "-jar", "Loan_Management_System_Blugin-0.0.1-SNAPSHOT.jar"]
-=======
 
 # #
 
@@ -38,5 +31,4 @@ WORKDIR /app
 COPY ./target/Loan_Management_System-0.0.1-SNAPSHOT.jar /app
 EXPOSE 8080
 CMD ["java", "-jar", "Loan_Management_System-0.0.1-SNAPSHOT.jar"]
- 
->>>>>>> 6b73ff2ffa3d0cf8f4adad0cfbe90ed161bdffa5
+
