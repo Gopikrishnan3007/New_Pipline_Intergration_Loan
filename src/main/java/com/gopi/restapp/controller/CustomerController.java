@@ -17,7 +17,7 @@ import com.gopi.restapp.service.CustomerService;
 
 @RestController
 @RequestMapping("/customer")
-@CrossOrigin("*")
+@CrossOrigin("http://localhost:3000")
 public class CustomerController {
 
 	

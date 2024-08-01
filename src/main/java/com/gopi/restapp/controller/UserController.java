@@ -11,7 +11,7 @@ import com.gopi.restapp.service.UserService;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin("*")
+@CrossOrigin("http://localhost:3000")
 public class UserController {
 
 	
